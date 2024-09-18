@@ -8,7 +8,7 @@ filtre = math.ceil(float(water_quantity) / 5)
 lampe_UV = math.ceil((float(water_quantity) / 5) * 3)
 chlore = float(float(water_quantity) / 10)
 
-print(f"""Voici les éléments requis pour assainir {water_quantity}L d'eau:\n
-        \t- Filtre(s) : {filtre}\n
-        \t- Lampe(s) UV : {lampe_UV}\n
-        \t- Chlore : {chlore}kg""")
+print(f"""Voici les éléments requis pour assainir {water_quantity}L d'eau:
+\t- Filtre(s) : {filtre}
+\t- Lampe(s) UV : {lampe_UV}
+\t- Chlore : {chlore}kg""")
